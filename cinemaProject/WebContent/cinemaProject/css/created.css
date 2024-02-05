@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+#bbs {
+	width:600px;
+	margin:30px auto;
+	text-align:left;
+}
+
+#bbs_title {
+	width:600px;
+	height:40px;
+	text-align:left;
+	font-weight: bold;
+	line-height:40px;
+	font-size:10pt;
+	border-bottom: 2px solid #000000;
+}
+
+#bbsCreate {
+	width:600px;
+	overflow: visible;
+	border-top:1px solid #DBDBDB;
+	text-align:left;
+}
+
+
+
+.bbsCreate_bottomLine {
+	height:45px;
+	line-height:35px;
+	border-bottom:1px solid #DBDBDB;
+	clear:both;
+	text-align:left;
+}
+
+
+.bbsCreate_bottomLine dl {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_bottomLine dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_noLine {
+	height:35px;
+	line-height:35px;
+	clear:both;
+	text-align:left;
+}
+
+.bbsCreate_noLine dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_noLine dl {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bbsCreate_content {
+	height:170px;
+	line-height:170px;
+	border-bottom:1px solid #DBDBDB;
+	clear:both;
+	text-align:left;
+}
+
+#bbsCreate_content dl {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bbsCreate_content dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bbsCreate dt {
+	float:left;
+	height:35px;
+	width:80px;
+	line-height:35px;
+	text-align:left;
+	margin-top: 4px;
+	font-size: 10px;
+	font-weight: bold;
+	color: gray;
+}
+#bbsCreate dd {
+	float:left;
+	height:35px;
+	width:440px;
+	line-height:35px;
+	text-align:left;
+	padding-left:10px;
+	margin-top: 5px;
+}
+
+#bbsCreate_content dt {
+	float:left;
+	height:170px;
+	width:80px;
+	text-align:left;
+	padding-left:20px;
+	background-color:#EEEEEE;
+}
+#bbsCreate_content dd {
+	float:left;
+	height:170px;
+	width:440px;
+	line-height:170px;
+	text-align:left;
+	padding-left:10px;
+}
+
+#bbsCreate_footer {
+	width:600px;
+	overflow: visible;
+	clear:both;
+	height:50px;
+	line-height:50px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.boxTF { 
+	border:1px solid; 
+	height:15px; 
+	margin-top:7px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#dbdbdb; 
+	background-color:#dbdbdb; 
+	font-family:"굴림"; 
+	font-size:9pt; 
+	transition: background-color 0.3s;
+}
+
+.boxTF:hover {
+    background-color: white; /* 클릭하면 배경 색상을 흰색으로 변경 */
+}
+
+.boxTA { 
+	border:1px solid; 
+	height:150px; 
+	margin-top:7px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#666666; 
+	background-color:#ffffff; 
+	font-family:"굴림"; 
+	font-size:9pt; 
+}
+
+
+

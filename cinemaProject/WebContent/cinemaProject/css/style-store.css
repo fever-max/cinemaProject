@@ -1,0 +1,109 @@
+
+/* 메인 크기 */
+#cinemaStoreChart {
+	height: 100%;
+}
+
+.cinemaStoreDiv {
+	width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+
+.cinemaStoreTitle {
+	margin-left: 10px;
+	display: flex;
+	align-items: baseline;
+}
+
+.cinemaStoreTitle1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.cinemaStoreTitle2  {
+	display: flex;
+	justify-content:space-between;
+	width: 89%;
+	align-items: center;
+}
+
+/* 물품내용 */
+
+.cinemaStore-title {
+	margin-top: 10px;		
+}
+
+.productContent {
+	font-size: 11px;
+}
+
+.productPrice {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.cinemaStore-info {
+	display: grid;
+}
+
+
+.cinemaStore-button {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #FF4357;
+	width: 100px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	height: 25px;
+}
+
+.movie-button:hover {
+    cursor: pointer;
+}
+
+/* 사진 배열 */
+
+.store-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 60px;
+}
+
+.store-card {
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+  transition: transform 0.3s ease-out;
+}
+
+.store-card:hover {
+  transform: scale(1.1);
+}
+
+
+
+.cinemaStore-poster {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.cinemaStore-poster img {
+
+  width: 180px;
+	height: auto;
+
+}
+
+
+

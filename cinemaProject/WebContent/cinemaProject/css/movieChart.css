@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+/* 무비차트 */
+
+#movieAllChart {
+	width: 1000px;
+	margin: auto;
+}
+
+.movieAllTitleList {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.movieAllTitle {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.movieAllTitle2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #e2e2e2;
+	border-radius: 15px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    height: 10px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+
+.movieBody {
+	margin: auto;
+}
+
+.movieAllDiv {
+  width: 100%; /* 전체 폭을 차지하도록 변경 */
+  margin: 50px auto;
+  overflow: hidden; /* 오버플로우 숨김 추가 */
+}
+
+.movie-card {
+	position: relative;
+    display: flex;
+    flex-direction: column; /* 요소를 세로로 나열하도록 설정 */
+    align-items: center; /* 세로 정렬을 중앙으로 설정 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+
+/* 영화 순위 및 배치 */
+.movie-ranking {
+	position: absolute;
+	top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.movie-poster {
+  position: relative;
+  width: 185px;
+  overflow: hidden; /* 이미지가 컨테이너를 벗어나지 않도록 함 */
+  margin-top: 5px;
+  z-index: 0;
+}
+
+.movie-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.5s ease; /* 이미지 확대 효과를 위한 transition */
+}
+
+.movie-grid {
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.5s ease; /* 슬라이드 효과를 위한 transition */
+}
+
+
+
+.age-rating {
+  position: absolute;
+  background-color: green;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  right: 10px;
+}
+
+.age-orange {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  right: 10px;
+}
+
+.age-red {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  right: 10px;
+}
+
+.age-yellow {
+  position: absolute;
+  background-color: yellow;
+  color: black ;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  right: 10px;
+}
+
+/* 영화내용 */
+
+.movie-title {
+	margin-top: 10px;		
+}
+
+
+.movie-rating,
+.movie-release-date {
+	font-size: 13px;
+	color: #FF4357;
+	font-weight: bold;
+}
+.movie-info {
+	display: grid;
+}
+
+
+
+.movie-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FF4357;
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+    position: absolute; /* 절대 위치 설정 */
+    top: 50%; /* 부모 요소의 중앙으로 설정 */
+    left: 50%; /* 부모 요소의 중앙으로 설정 */
+    transform: translate(-50%, -50%); /* 부모 요소의 중앙으로 이동 */
+    opacity: 0; /* 초기에는 투명하게 설정 */
+    transition: opacity 0.3s ease; /* 부드러운 투명도 전환을 위한 transition 추가 */
+}
+
+.movie-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    position: absolute; /* 절대 위치 설정 */
+    top: 38%; /* 부모 요소의 중앙으로 설정 */
+    left: 50%; /* 부모 요소의 중앙으로 설정 */
+    transform: translate(-50%, -50%); /* 부모 요소의 중앙으로 이동 */
+    opacity: 0; /* 초기에는 투명하게 설정 */
+    transition: opacity 0.3s ease; /* 부드러운 투명도 전환을 위한 transition 추가 */
+}
+
+.movie-button:hover,
+.movie-button2:hover {
+	opacity: 0.8 !important;
+    cursor: pointer;
+}
+
+
+.movie-card:hover .movie-button,
+.movie-card:hover .movie-button2 {
+    opacity: 1;
+}
+.movie-card:hover img {
+    filter: brightness(70%) !important; /* 포스터 어둡게 설정 (brightness로 밝기 조절) */
+}
+
+

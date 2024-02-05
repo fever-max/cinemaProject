@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+
+.userDiv {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.bbsSub {
+	display: flex;
+	align-items: center;
+}
+
+#bbs {
+	width:fit-content;
+	margin:60px auto;
+	text-align:left;
+	color: black;
+}
+
+#bbs_title {
+	width:333px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:13pt;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+
+#bbs_title2 {
+	color: gray;
+	width:333px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:13pt;
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+}
+
+
+#bbs_title3 {
+	color: gray;
+	width:333px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:13pt;
+	border-bottom: 1px solid gray;
+	font-weight: bold;
+}
+
+
+#bbsCreate {
+	width:1000px;
+	overflow: visible;
+	text-align:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 9pt;
+	font-family: 굴림;
+	margin-left: 94px;
+	margin-top: 18px;
+}
+
+#bbsCreate dt {
+	float:left;
+	height:35px;
+	width:150px;
+	line-height:80px;
+	text-align:center;
+	margin-top: 4px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666e0;
+}
+
+#bbsCreate dd {
+	float:left;
+	height:35px;
+	width:440px;
+	line-height:35px;
+	text-align:left;
+	padding-left:10px;
+	margin-top: 5px;
+}
+
+.bbsCreate_bottomLine {
+	height:70px;
+	line-height:35px;
+	clear:both;
+	text-align:left;
+}
+
+.bbsCreate_bottomLine dl {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_bottomLine dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.boxTF { 
+	border:1px solid; 
+	height:30px; 
+	margin-top:21px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#eeeeee; 
+	background-color:#eeeeee; 
+	font-family:"굴림"; 
+	font-size:12pt; 
+	transition: background-color 0.3s;
+}
+
+.boxTF:hover {
+  background-color: #ffffff;
+}
+
+#btn_login {
+	position: absolute;
+	right: 0;
+  	top: 0;
+  	width: 110px;
+	height: 100px;
+	color: #fff;
+ 	font-size: 16px;
+ 	border-radius: 4px;
+ 	background-color: #FF243E;
+}
+
+button {
+    border: 1px solid #fff;
+    cursor: pointer;
+  	width: 113px;
+	height: 105px;
+  	color: #fff;
+	font-size: 16px;
+  	border-radius: 4px;
+  	background-color: #FF243E;
+  	margin-top: -44px;
+  	margin-left: 40px;
+}
+
+.login_menu {
+  position: relative;
+  margin-left: 676px;
+  color: #666666e0;
+  font-size: 12px;
+  font-family: '굴림', 'Arial', sans-serif; /* 여러 개의 폰트를 사용할 경우 순차적으로 확인합니다. */
+}
+

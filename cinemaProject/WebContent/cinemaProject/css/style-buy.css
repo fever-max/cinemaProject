@@ -1,0 +1,143 @@
+
+.product-table-Div {
+    width: 1000px;
+    margin: 20px auto;
+
+}
+
+
+.product-table {
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.product-table table {
+	
+    border-collapse: collapse; /* Collapse borders to have a single border around the entire table */
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid #000; /* Make the top border thicker */
+    border-bottom: 2px solid #000; /* Make the bottom border thicker */
+}
+
+.product-table th, .product-table td {
+    padding: 20px;
+    text-align: left;
+}
+
+.product-table td {
+	border-bottom:1px;
+}
+.product-table th {
+    background-color: #f2f2f2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    border-bottom: 1px;
+    font-size: 15pt;
+}
+
+.product-table img {
+    max-width: 70%;
+    height: auto;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-action-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-summary {
+    text-align: center;
+    
+}
+
+.total-amount-header {
+    background-color: #f2f2f2;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.order-summary .total-amount,
+.order-summary .total-amount-header {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+
+.product-table h2 {
+    padding-left: 100px; /* 원하는 여백 크기로 조절하세요 */
+}
+
+  .maejeom-table {
+            border-collapse: collapse; /* 테이블의 경계를 병합하여 하나로 설정 */
+            width: 100%; /* 테이블 전체 너비 설정 */
+            
+            height: 80px;
+        }
+     .maejeom-title {
+            text-align: left; /* 텍스트를 왼쪽 정렬 */
+            font-size: 45px; /* 글자 크기 설정 */
+            font-weight: bold; /* 굵은 글꼴 설정 */
+            padding-left: 120px; /* 왼쪽 여백 설정 */
+            
+        }
+        
+
+   .maejeom-header {
+            text-align: center;
+            font-size: 30px; /* 글자 크기 설정 */
+            font-weight: bold;
+           
+        }
+
+ .underline {
+    border: 1px solid #000; /* 얇은 줄 설정 */
+    background-color: black;
+    width: 50%; /* 라인의 너비를 조절합니다. */
+    margin: 0 auto; /* 가운데 정렬을 위해 margin을 사용합니다. */
+}
+
+
+
+
+        .order-info {
+            background-color: #fff;
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left; /* 좌측 정렬 */
+        }
+
+        .order-info .border-line {
+            border-top: 2px solid #ddd;
+            margin: 10px 0;
+        }
+
+        .order-info h2 {
+            font-size: 30px; /* 글자 크기 키우기 */
+            margin-bottom: 10px;
+        }
+
+        .order-info p {
+            font-size: 22px; /* 글자 크기 키우기 */
+            margin: 10px 0;
+        }
+        
+
+
+

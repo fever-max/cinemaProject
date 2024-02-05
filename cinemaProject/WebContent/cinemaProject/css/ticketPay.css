@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.containerTicket {
+	height: 500px
+}
+
+.stepsContent {
+	width: 100%;
+	
+}
+
+.stepsContentHeader {
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 40px;
+	font-weight: bold;
+	
+}
+
+.stepsContentBody {
+	display: flex;
+	justify-content: space-around;
+	background-color: #F2F0E5;
+	
+}
+
+.stepsContentBody1 {
+	width: 50%;
+	margin: 10px;
+}
+
+
+.stepsSub {
+	width: 45%;
+	background-color: #F2F0E5;
+	height: 350px;
+	
+}
+
+.subName {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(128, 128, 128, 0.3);
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.subBody{
+	display: flex;
+	
+}
+
+.movieImg {
+	background-color: gray;
+	margin-right: 10px;
+	height: 250px;
+	width: 170px;
+}
+
+.movieText {
+	display: flex;
+	margin: 20px;
+	height: 100%;
+}
+
+.ticketBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.ticketPay{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	width: 80px;
+	background-color: red;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 8%;
+	border: 2px solid red;
+	cursor: pointer;
+}
+
+.ticketCancle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	background-color: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px;
+	margin-left: 20px;
+	border: 2px solid gray;
+	border-radius: 8%;
+}
+
+.movieTextSub {
+	margin-left: 10px;
+}

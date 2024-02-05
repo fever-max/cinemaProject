@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.steps3 {
+  display: flex;
+  background-color: #F2F0E5;
+}
+
+.okTicket {
+	
+	margin: auto;
+
+}
+
+.okTicketTitle {
+	
+	font-size: 30px;
+	font-weight: bold;
+	margin: 30px;
+}
+
+.okTicketBody {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+	
+}
+
+.moviePost {
+	width: 180px;
+	height: 230px;
+	background-color: gray;
+	
+}
+
+.okTicketText {
+	margin-left: 20px;
+}
+
+.ckBtn {
+	background-color: red;
+	color: white;
+	display: flex;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+	
+}
+
+.ckTicketTitle{
+	font-weight: bold;
+	color: gray;
+}
+
+.ckTicketText {
+	font-size: 13px;
+	color: gray;
+	margin-bottom: 20px;
+	
+}

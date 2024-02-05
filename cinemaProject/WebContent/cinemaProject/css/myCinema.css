@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+.thumb-image img {
+	border-radius: 50%;
+}
+
+
+#myCinema {
+	
+}
+
+.myCinemaDiv {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#contaniner {
+	width: 1000px;
+	display: flex;	
+	background-color: rgba(51, 51, 51, 0.03);
+}
+
+.contaninerSub {
+	display: flex;
+
+}
+
+#person {
+	display: block;
+	margin-left: 20px;
+}
+
+.person-info{
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	align-items: baseline;
+	border-bottom: 1px solid gray;
+}
+
+.person-member {
+	display: flex;
+	padding: 20px;
+}
+
+.personName {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.personId {
+	margin: 0 20px;
+}
+
+
+
+.btn {
+	border: 0 none;
+    width: 17px;
+    height: 20px;
+    margin: 5px 0 0 0;
+    background: url(https://img.cgv.co.kr/R2014/images/sprite/sprite_btn.png) no-repeat 0 -218px;
+    font: 0/0 a;
+    vertical-align: top;
+    zoom: 1;
+}
+
+
+
+/* 예매내역 */
+.myTicket {
+	padding: 20px;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+    margin-top: 20px;
+}
+
+.movieInfo {
+	display: flex;
+	margin: 20px;
+}
+
+
+.movieInfo2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.movieInfoSub {
+	display: grid;
+}
+
+.myTicketTitle {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+	
+}
+
+.movieImg {
+	width: 180px;
+	height: 230px;
+	background-color: gray;
+}
+
+.movieText {
+	padding: 10px;
+	display: grid;
+	width: 70%;
+	margin-left: 50px;
+}
+
+.movieName {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ticketPrice {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.ticketPriceColor {
+	color: #0080FF;
+}
+
+.cancle {
+	font-weight: bold;
+    padding: 5px;
+    border: double;
+}
+
+.line {
+	width: 100%;
+	height: 1px; /* 선의 높이를 조절하려면 이 값을 변경하세요 */
+    background-color: rgba(51, 51, 51, 0.1); /* 선의 색상을 변경하려면 이 값을 변경하세요 */
+    margin: 10px 0; /* 선 상하 여백을 조절하려면 이 값을 변경하세요 */
+}
+

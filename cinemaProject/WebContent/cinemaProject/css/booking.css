@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+#movieContainer {
+	
+	padding: 20px;
+}
+
+
+#container {
+  width: 1000px;
+  height: 100%;
+  margin: 50px auto;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navi {
+  display: flex;
+  align-items: center; /* 텍스트를 수직 중앙에 정렬 */
+}
+
+#navi span {
+  margin-left: auto; /* 텍스트를 오른쪽으로 이동 */
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#navi a {
+	background-color: #F2F0E5;
+	padding: 10px;
+    border: double;
+}
+
+
+.selectMovie,
+.selectTheater,
+.selectDate, 
+.selectTime {
+	width: 23%;
+	height: 500px;
+	background-color: #F2F0E5;
+}
+
+.selectHead {
+	display: flex;
+	background-color: #333333;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 40px;
+	font-weight: bold;
+}
+
+.selectBody {
+
+	
+}
+
+.selectBody li {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.selectMovieInfo {
+	display: flex;
+	height: 100px;
+	background-color: #333333;
+	justify-content: space-between;
+}
+
+.ticketCk {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 100px;
+	color: white;
+	margin:0 30px;
+}
+
+#CkmovieName,
+#CkTheater,
+#CkDate,
+#CkTime {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.Ckitem {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+#ticketStep {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	height: 40px;
+	font-weight: bold;
+	width: 130px;
+	cursor: pointer;
+}
+
+.theaterSub {
+	margin: 20px;
+	color: gray;
+}
+
+.movieAge {
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+	display: flex;
+    width: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.movieAge.bg-all {
+    background-color: #269C56; /* "ALL"일 경우 배경색을 초록색으로 설정 */
+}
+
+/* 기존 스타일 유지 */
+.movieAge.bg-19 {
+    background-color: red; /* 19세 이상일 경우 배경색을 빨간색으로 설정 */
+}
+
+.movieAge.bg-15 {
+    background-color: #DD742F;
+}
+
+.movieAge.bg-12 {
+    background-color: #E9B62F;
+}
+
+.movie a{
+	display: flex;
+	align-items: center;
+}
+
+
+#theaterList li {
+	cursor: pointer;
+}
+
+#theaterDate li {
+	cursor: pointer;
+}
+
+#theaterDay li {
+	cursor: pointer;
+}
+
+#theaterTime li {
+	cursor: pointer;
+}

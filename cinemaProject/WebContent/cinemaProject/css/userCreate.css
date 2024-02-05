@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+.userCreateDiv {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#title {
+	width: 1000px;
+    margin: 30px auto;
+    text-align: left;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: 30px
+}
+
+#bbs {
+	width:fit-content;
+	margin:40px auto;
+	text-align:left;
+	color: black;
+}
+
+#bbs_title {
+	width:955px;
+	height:40px;
+	line-height:40px;
+	font-size:13pt;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+	margin-left: 25px;
+}
+
+#bbsCreate {
+	width:1000px;
+	overflow: visible;
+	text-align:left;
+	font-family: 'Arial', sans-serif;
+	font-size: 9pt;
+	font-family: 굴림;
+}
+
+#bbsCreate dt {
+	float:left;
+	height:35px;
+	width:150px;
+	line-height:80px;
+	text-align:center;
+	margin-top: -4px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666e0;
+}
+
+#bbsCreate dd {
+	float:left;
+	height:35px;
+	width:440px;
+	line-height:35px;
+	text-align:left;
+	padding-left:10px;
+	margin-top: 5px;
+}
+
+.bbsCreate_bottomLine {
+	width:955px;
+	margin-left:25px;
+	height:70px;
+	line-height:35px;
+	clear:both;
+	text-align:left;
+	border-bottom: 1px solid #66666633;
+}
+
+.bbsCreate_bottomLine_addr {
+	width:955px;
+	margin-left:25px;
+	height:113px;
+	line-height:35px;
+	clear:both;
+	text-align:left;
+	border-bottom: 2px solid #66666633;	
+}
+
+.bbsCreate_bottomLine dl {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_bottomLine dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bbsCreate_bottomLine_addr input[type="text"] {
+  height: 25px;
+  width: 200px; /* 필요에 따라 조절 가능한 너비 값 */
+}
+
+.boxTF { 
+	border:1px solid; 
+	height:25px; 
+	margin-top:15px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#eeeeee; 
+	background-color:#eeeeee; 
+	font-family:"굴림"; 
+	font-size:12pt; 
+	transition: background-color 0.3s;
+}
+
+.boxTF:hover {
+  background-color: #ffffff;
+}
+
+#btn_create {
+	position: absolute;
+	right: 0;
+  	top: 0;
+  	width: 110px;
+	height: 100px;
+	color: #fff;
+ 	font-size: 16px;
+ 	border-radius: 4px;
+ 	background-color: #FF243E;
+}
+
+button {
+    border: 1px solid #fff;
+    cursor: pointer;
+  	width: 113px;
+	height: 45px;
+  	color: #fff;
+	font-size: 16px;
+  	border-radius: 4px;
+  	background-color: #FF243E;
+  	margin-top: 12px;
+  	margin-left: 450px;
+}
+
+.login_menu {
+	position: relative;
+	margin-left: 676px;
+	color: #666666e0;
+	font-size: 12px;
+	font-family: '굴림', 'Arial', sans-serif; /* 여러 개의 폰트를 사용할 경우 순차적으로 확인합니다. */
+}
+
+select {
+	height: 25px; /* 옵션 칸의 높이 조절, 필요에 따라 조절 가능 */
+}
+
+

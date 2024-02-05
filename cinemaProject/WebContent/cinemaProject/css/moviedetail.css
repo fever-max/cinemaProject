@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+/* 연령 표시 */
+
+
+.age-rating,
+.age-orange,
+.age-red,
+.age-yellow {
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.age-rating {
+  background-color: green;
+  color: white;
+}
+
+.age-orange {
+  background-color: orange;
+  color: white;
+}
+
+.age-red {
+  background-color: red;
+  color: white;
+}
+
+.age-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.movieImg {
+  position: relative;
+}
+
+/* 기본설정 */
+
+
+.line {
+  width: 1000px;
+  border: 1.5px solid black;
+  margin: 20px auto;
+}
+
+
+
+#movieAllChart {
+	height: 100%;
+}
+
+.movieAllTitle {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.movieAllDiv {
+	width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.movieDetail {
+	display: flex;
+	padding: 10px;
+}
+
+.movieImg img {
+	width: 150px;
+	position: relative;
+}
+
+.movieText {
+	margin-left: 20px;
+}
+
+.movieTextName {
+	display: flex;
+    align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.movieTextName2 {
+	margin-left: 10px;
+}
+
+.movieTextBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: #FF4357;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.movieDetailLong {
+	padding: 20px;
+	background-color: #F6F6F6;
+}
+
+.LongText {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+/* 영화 리뷰 */
+
+.movieReview {
+	margin-top: 20px;
+}
+
+.movieReviewText1 {
+	display: flex;
+}
+
+.movieReviewTitle {
+	display: flex;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#comentContent {
+	border: none;
+	border-bottom: 1px solid gray;
+	width: 89%;
+	height: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.reviewBtn {
+	font-size:15px;
+	font-weight: bold;
+	width: 10%;
+	height: 30px;
+	color: white;
+	background-color: #FF4357;
+	border: none;
+	border-radius: 5px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.movieReviewText {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.userInfo {
+	display: flex;
+	align-items: baseline;
+}
+
+.movieReviewTextSub {
+	display: flex;
+	width: 44%;
+	padding: 20px;
+	margin: 10px;
+	background-color: #F6F6F6;
+	border-radius: 5px;
+}
+
+.review-user {
+	font-size: 17px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.review-date {
+	font-size: 13px;
+	color: gray;
+}
+
+.movieReviewImg img{
+	width: 50px;
+	border-radius: 50%;
+}
+
+.movieReviewInfo {
+	margin-left: 10px;
+}
+
+.review-delete {
+	font-size: 13px;
+	margin-left: 10px;
+	color: #FF4357;
+}
+
+.pageDiv {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

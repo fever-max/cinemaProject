@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.line {
+  width: 1000px;
+  border: 1.5px solid black;
+  margin: 20px auto;
+}
+
+#movieAllChart {
+	height: 100%;
+}
+
+.movieAllTitle {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.movieBody {
+	margin: auto;
+}
+
+.movieAllDiv {
+	width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.movie-card {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* 영화 순위 및 배치 */
+.movie-ranking {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #FF4357;
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+}
+
+.movie-poster {
+  position: relative;
+  width: 185px;
+  overflow: hidden; /* 이미지가 컨테이너를 벗어나지 않도록 함 */
+  margin-top: 5px;
+}
+
+.movie-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease; /* 이미지 확대 효과를 위한 transition */
+}
+
+.movie-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 60px;
+}
+
+.age-rating {
+  position: absolute;
+  background-color: green;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  left: 10px;
+}
+
+.age-orange {
+  position: absolute;
+  background-color: orange;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+    top: 10px;
+  left: 10px;
+}
+
+.age-red {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+    top: 10px;
+  left: 10px;
+}
+
+.age-yellow {
+  position: absolute;
+  background-color: yellow;
+  color: black ;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 10px;
+  left: 10px;	
+}
+
+/* 영화내용 */
+
+.movie-title {
+	margin-top: 10px;		
+}
+
+.movie-rating,
+.movie-release-date {
+	font-size: 13px;
+}
+.movie-info {
+	display: grid;
+}
+
+
+.movie-button {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #FF4357;
+	width: 100px;
+	border-radius: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	height: 25px;
+}
+
+.movie-button:hover {
+    cursor: pointer;
+}
