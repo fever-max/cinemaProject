@@ -55,7 +55,8 @@
 ![영화예매1](https://github.com/fever-max/cinemaProject/assets/131164588/6202385a-f7b7-4448-a55a-a3221ce1d28d)
 ![영화예매2](https://github.com/fever-max/cinemaProject/assets/131164588/8899a6ce-623a-4319-9f1e-b10054e026ab)
 ![영화예매3](https://github.com/fever-max/cinemaProject/assets/131164588/ccb2489b-f0ad-4f25-8f3a-729d8944122f)
-![영화예매4](https://github.com/fever-max/cinemaProject/assets/131164588/caee098d-121e-43eb-92d9-4f1281759ab4)
+![Honeycam 2024-02-05 19-54-53](https://github.com/fever-max/cinemaProject/assets/131164588/62dcca7a-7cc9-42b5-a62f-18451ea2d898)
+
 
 ### 📌 Store
 ![스토어](https://github.com/fever-max/cinemaProject/assets/131164588/2afb8328-1b8f-4c3a-a18c-a2a239a00e27)
